@@ -1,10 +1,8 @@
-const Index = () =>{
+import Navbar from "../components/Navbar";
+const Index = () => {
     return (
-     <h1 className="text-3xl font-bold underline">
-      React@19 + Tailwind@4 navziba Tamplate
-    </h1>
+        <Navbar/>
     )
-}
-
+};
 
 export default Index;

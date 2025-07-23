@@ -8,8 +8,27 @@
     "react",
     "vite",
     "typescript",
-    "webapp"
+    "navziba"
   ],
+  "author": {
+    "name": "Ziba Nouri",
+    "email": "zn.zibanouri@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zibanouri/github.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zibanouri/navziba/issues"
+  },
+  "profiles": {
+    "googleScholar": "https://scholar.google.com/citations?user=Rhue_kkAAAAJ&hl=en",
+    "gitHub": "https://github.com/zibanouri",
+    "linkedin": "https://www.linkedin.com/in/zibanouri",
+    "researchgate": "https://www.researchgate.net/profile/Farzad-Asgari",
+    "orcid": "https://orcid.org/0009-0008-3800-0408"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
