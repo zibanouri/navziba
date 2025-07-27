@@ -2,7 +2,7 @@ import { ArrowDown } from 'lucide-react';
 
 const Hero = () => {
     return (
-        <section className="min-h-screen relative overflow-hidden w-full bg-slate-800">
+        <section className=" fixed min-h-screen overflow-hidden w-full bg-slate-700">
             <div className="flex flex-col md:flex-row items-center justify-center min-h-screen gap-12 p-8 relative z-10">
                 <div className="flex-shrink-0">
                     <div className="w-80 h-80 rounded-2xl overflow-hidden shadow-2xl ring-4 ring-white/20">
@@ -31,11 +31,14 @@ const Hero = () => {
                                     Skills:
                                 </span>
                             </p>
-                            <p>• HTML5, CSS3, JavaScript</p>
-                            <p>• React.js</p>
-                            <p>• Tailwind CSS, Bootstrap</p>
-                            <p>• Git, GitHub</p>
-                            <p>• Responsive Design</p>
+                            <p>• HTML, css, scss, JavaScript
+                                <br />
+                                •Shell Scripting Specialist
+                                <br />
+                                • Tailwind CSS, Bootstrap, React
+                                <br />
+                                • Git, GitHub
+                            </p>
                             <p className="mt-4">
                                 <span className="text-blue-400 font-semibold">
                                     Experience:
