@@ -6,9 +6,9 @@ const Navbar = () => {
 
     return (
         <nav className="relative top-0 left-0 right-0 z-40 transition-all duration-500 shadow-md">
-            <div className="max-w-5xl mx-auto p-4 sm:px-6 lg:px-8 bg-slate-300 rounded-lg">
+           <div className="max-w-5xl mx-auto p-4 sm:px-6 lg:px-8 bg-slate-700 rounded-lg">
                 <div className="flex justify-between items-center py-5">
-                    <div className="text-2xl font-bold text-black-400">
+                    <div className="text-2xl font-bold text-white">
                         Ziba Nouri
                     </div>
                     <div className="hidden md:flex space-x-8">
@@ -18,7 +18,7 @@ const Navbar = () => {
                                 className="capitalize hover:text-black-400 transition-all duration-300 cursor-pointer font-medium relative group"
                             >
                                 {item}
-                                <span className="absolute -bottom-1 left-0 w-0 h-0.5 group-hover:bg-gray-400 group-hover:w-full transition-all duration-300"></span>
+                                <span className="absolute -bottom-1 left-0 w-0 h-0.5 group-hover:bg-slate-200 group-hover:w-full transition-all duration-300"></span>
                             </button>
                         ))}
                     </div>
