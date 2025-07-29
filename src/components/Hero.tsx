@@ -2,10 +2,10 @@ import { ArrowDown } from 'lucide-react';
 
 const Hero = () => {
     return (
-        <section className=" fixed min-h-screen overflow-hidden w-full bg-slate-700">
+        <section className=" relative min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100 overflow-hidden">
             <div className="flex flex-col md:flex-row items-center justify-center min-h-screen gap-12 p-8 relative z-10">
                 <div className="flex-shrink-0">
-                    <div className="w-80 h-80 rounded-2xl overflow-hidden shadow-2xl ring-4 ring-white/20">
+                    <div className="w-80 h-80 rounded-2xl overflow-hidden shadow-2xl ring-2 ring-white/20">
                         <img
                             className="w-full h-full object-cover"
                             src="public/ziba.png"
@@ -15,58 +15,33 @@ const Hero = () => {
                 </div>
                 <div className="text-center md:text-left max-w-2xl">
                     <div className="mb-6">
-                        <h1 className="text-5xl md:text-7xl font-bold text-white">
+                        <h1
+                            className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-slate-800 via-blue-800 to-slate-800 bg-clip-text text-transparent"
+                        >
                             Ziba Nouri
                         </h1>
                     </div>
                     <div className="mb-8">
-                        <p className="text-xl md:text-2xl text-blue-300">
+                        <p className="text-xl md:text-2xl text-indigo-600">
                             ● Frontend Developer
                         </p>
                     </div>
                     <div className="mb-8">
                         <div className="text-lg text-slate-300 leading-relaxed space-y-2">
-                            <p>
-                                <span className="text-blue-400 font-semibold">
-                                    Skills:
-                                </span>
-                            </p>
-                            <p>• HTML, css, scss, JavaScript
-                                <br />
-                                •Shell Scripting Specialist
-                                <br />
-                                • Tailwind CSS, Bootstrap, React
-                                <br />
-                                • Git, GitHub
-                            </p>
                             <p className="mt-4">
                                 <span className="text-blue-400 font-semibold">
-                                    Experience:
-                                </span>{' '}
-                                Frontend Developer
-                            </p>
-                            <p className="mt-4">
-                                <span className="text-blue-400 font-semibold">
-                                    Contact:
+                                    Interests:
+                                    <br />
+                                    Thrives in collaborative environments
                                 </span>
                             </p>
-                            <p>Email: zn.zibanouri@gmail.com</p>
-                            <p>GitHub: github.com/zibanouri</p>
                         </div>
                     </div>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                        <button
-                            className="cursor-pointer bg-gradient-to-r from-blue-500 to-cyan-400
-                        hover:shadow-lg text-white px-8 py-4 rounded-lg font-semibold transition-all
-                        duration-200 transform-gpu hover:scale-[1.1] shadow-md"
-                        >
+                        <button className="px-8 py-4 bg-gradient-to-r from-sky-500 to-blue-500 text-white font-semibold rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-sky-300">
                             View My Work
                         </button>
-                        <button
-                            className="cursor-pointer border-2 border-blue-500 text-blue-400
-                        hover:bg-blue-500 hover:text-white px-8 py-4 rounded-lg font-semibold transition-all
-                        duration-300 transform-gpu hover:scale-[1.1]"
-                        >
+                        <button className="px-8 py-4 text-sky-600 font-semibold rounded-lg border border-sky-300 hover:bg-sky-50 hover:text-sky-800 transition-all duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-sky-200">
                             Get In Touch
                         </button>
                     </div>
