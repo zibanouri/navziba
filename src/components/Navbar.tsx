@@ -5,7 +5,7 @@ const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <nav className="relative top-0 left-0 right-0 z-40 transition-all duration-500 shadow-sm bg-white/90 backdrop-blur-md">
+        <nav className="relative top-0 left-0 right-0 z-20 transition-all duration-500 shadow-sm bg-white/90 backdrop-blue-md">
             <div className="max-w-5xl mx-auto p-4 sm:px-6 lg:px-8 rounded-lg">
                 <div className="flex justify-between items-center py-5">
                     <div className="text-2xl font-bold text-slate-800">
@@ -26,27 +26,26 @@ const Navbar = () => {
                         className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors cursor-pointer"
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                     >
-                        {isMenuOpen ? (
-                            <X className="w-6 h-6 text-slate-700" />
+                         {isMenuOpen ? (
+                            <X className="w-6 h-6" />
                         ) : (
-                            <Menu className="w-6 h-6 text-slate-700" />
+                            <Menu className="w-6 h-6" />
                         )}
                     </button>
                 </div>
                 {isMenuOpen && (
-                    <div className="md:hidden py-4 bg-white/95 rounded-lg mt-2 border border-gray-200 shadow-sm">
+                    <div className="md:hidden py-4 bg-black/5 rounded-lg mt-2 border border-black/10">
                         <div className="flex flex-col space-y-4 px-4">
                             {[
-                                'Home',
-                                'About',
-                                'Skills',
-                                'Projects',
-                                'Contact',
+                                'home',
+                                'about',
+                                'skills',
+                                'projects',
+                                'contact',
                             ].map((item) => (
                                 <button
-                                    key={item}
-                                    className="capitalize text-left py-2 text-slate-700 hover:text-blue-600 transition-colors duration-300 font-medium cursor-pointer"
-                                    onClick={() => setIsMenuOpen(false)}
+                                    className="capitalize text-left py-2 hover:text-blue-600
+                                    transition-colors duration-300 font-medium cursor-pointer"
                                 >
                                     {item}
                                 </button>
