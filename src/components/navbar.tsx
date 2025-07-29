@@ -36,7 +36,13 @@ const Navbar = () => {
                 {isMenuOpen && (
                     <div className="md:hidden py-4 bg-white/95 rounded-lg mt-2 border border-gray-200 shadow-sm">
                         <div className="flex flex-col space-y-4 px-4">
-                            {['Home', 'About', 'Skills', 'Projects', 'Contact'].map((item) => (
+                            {[
+                                'Home',
+                                'About',
+                                'Skills',
+                                'Projects',
+                                'Contact',
+                            ].map((item) => (
                                 <button
                                     key={item}
                                     className="capitalize text-left py-2 text-slate-700 hover:text-blue-600 transition-colors duration-300 font-medium cursor-pointer"

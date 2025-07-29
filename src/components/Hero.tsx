@@ -2,22 +2,20 @@ import { ArrowDown } from 'lucide-react';
 
 const Hero = () => {
     return (
-        <section className=" relative min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100 overflow-hidden">
+        <section className="relative min-h-screen bg-gradient-to-br from-slate-200 via-slate-50 to-slate-300 overflow-hidden">
             <div className="flex flex-col md:flex-row items-center justify-center min-h-screen gap-12 p-8 relative z-10">
                 <div className="flex-shrink-0">
                     <div className="w-80 h-80 rounded-2xl overflow-hidden shadow-2xl ring-2 ring-white/20">
                         <img
                             className="w-full h-full object-cover"
-                            src="public/ziba.png"
+                            src="./navziba/public/ziba.png"
                             alt="image-ziba"
                         />
                     </div>
                 </div>
                 <div className="text-center md:text-left max-w-2xl">
                     <div className="mb-6">
-                        <h1
-                            className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-slate-800 via-blue-800 to-slate-800 bg-clip-text text-transparent"
-                        >
+                        <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-slate-800 via-blue-800 to-slate-800 bg-clip-text text-transparent">
                             Ziba Nouri
                         </h1>
                     </div>

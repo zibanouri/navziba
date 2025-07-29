@@ -1,8 +1,9 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Index from './pages/Index';
+
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/navziba">
             <Routes>
                 <Route path="*" element={<Index />} />
             </Routes>
