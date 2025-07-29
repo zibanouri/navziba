@@ -36,7 +36,7 @@ This Code of Conduct applies within all project spaces, and also applies when an
 
 ## Reporting
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project maintainer at [zibanouri@gmail.com](mailto:zn.zibanouri@gmail.com). All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project maintainer at [zn.zibanouri@gmail.com](mailto:zn.zibanouri@gmail.com). All complaints will be reviewed and investigated promptly and fairly.
 
 ## Attribution
 
