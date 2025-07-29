@@ -8,7 +8,7 @@ const Hero = () => {
                     <div className="w-80 h-80 rounded-2xl overflow-hidden shadow-2xl ring-2 ring-white/20">
                         <img
                             className="w-full h-full object-cover"
-                            src="./navziba/public/ziba.png"
+                            src="/navziba/ziba.png"
                             alt="image-ziba"
                         />
                     </div>
