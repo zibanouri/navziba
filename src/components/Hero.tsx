@@ -2,7 +2,7 @@ import { ArrowDown } from 'lucide-react';
 
 const Hero = () => {
     return (
-        <section className="relative min-h-screen bg-gradient-to-br from-slate-200 via-slate-50 to-slate-300 overflow-hidden">
+        <section className="relative min-h-screen bg-gradient-to-br from-slate-200 via-slate-50 to-slate-300 overflow-hidden h-screen">
             <div className="flex flex-col md:flex-row items-center justify-center min-h-screen gap-12 p-8 relative z-10">
                 <div className="flex-shrink-0">
                     <div className="w-80 h-80 rounded-2xl overflow-hidden shadow-2xl ring-2 ring-white/20">

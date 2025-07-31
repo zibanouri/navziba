@@ -6,7 +6,7 @@ const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <nav className="relative top-0 left-0 right-0 z-20 transition-all duration-500 shadow-sm bg-white/90 backdrop-blue-md">
+        <nav className="relative top-0 left-0 right-0 z-20 transition-all duration-500 shadow-sm bg-white/90 backdrop-blur-md">
             <div className="max-w-5xl mx-auto p-4 sm:px-6 lg:px-8 rounded-lg">
                 <div className="flex justify-between items-center py-5">
                     <div className="text-2xl font-bold text-slate-800">
