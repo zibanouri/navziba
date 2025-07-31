@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 
-
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -27,7 +26,7 @@ const Navbar = () => {
                         className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors cursor-pointer"
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                     >
-                         {isMenuOpen ? (
+                        {isMenuOpen ? (
                             <X className="w-6 h-6" />
                         ) : (
                             <Menu className="w-6 h-6" />
