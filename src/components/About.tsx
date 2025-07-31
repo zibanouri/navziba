@@ -32,20 +32,20 @@ const About = () => {
                         </div>
                         <p className="text-slate-900 leading-relaxed mb-8">
                             Hello, I am a single mother with many challenges,
-                             but my heart is happy because I am here and I am moving forward to achieve my goals,
-                              despite all the difficulties.. I love
-                            programming, although my main field of study in
-                            university was something completely different. But
-                            the more I learn this skill, the more I am
-                            fascinated by it. I think it is unique with all the
-                            difficulties and it makes me feel good. To achieve
-                            my dreams and goals, every difficulty is always a
-                            challenge for me because I want to be an independent
-                            mother and stand on my own two feet with all my
-                            heart. The world and the difficulties of life cannot
-                            reduce my efforts to achieve my goals. This is Iran,
-                            where challenges and difficulties are an inseparable
-                            part of life.
+                            but my heart is happy because I am here and I am
+                            moving forward to achieve my goals, despite all the
+                            difficulties.. I love programming, although my main
+                            field of study in university was something
+                            completely different. But the more I learn this
+                            skill, the more I am fascinated by it. I think it is
+                            unique with all the difficulties and it makes me
+                            feel good. To achieve my dreams and goals, every
+                            difficulty is always a challenge for me because I
+                            want to be an independent mother and stand on my own
+                            two feet with all my heart. The world and the
+                            difficulties of life cannot reduce my efforts to
+                            achieve my goals. This is Iran, where challenges and
+                            difficulties are an inseparable part of life.
                         </p>
                     </div>
                     <div className="bg-slate-400/20 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:border-gray-500/60 transition-all duration-300">
