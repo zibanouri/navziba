@@ -8,7 +8,8 @@ const About = () => {
         'Typescript',
         'Tailwindcss',
         'Shell Script Developer',
-        'html css',
+        'html',
+        'css',
     ];
     return (
         <section
@@ -30,7 +31,7 @@ const About = () => {
                             <h3 className="font-semibold text-2xl">My Story</h3>
                         </div>
                         <p className="text-slate-900 leading-relaxed mb-8">
-                            I am very interested in teamwork. I love
+                            Hello, I am a single mother with many challenges, but my heart is happy because I am here and I am moving forward to achieve my goals, despite all the difficulties.. I love
                             programming, although my main field of study in
                             university was something completely different. But
                             the more I learn this skill, the more I am
