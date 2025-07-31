@@ -28,8 +28,7 @@ const Hero = () => {
                         <div className="text-lg text-slate-300 leading-relaxed space-y-2">
                             <p className="mt-4">
                                 <span className="text-gray-700 font-semibold">
-                                    Feature:
-                                    <br />I am very interested in teamwork.
+                                    Hello friends
                                 </span>
                             </p>
                         </div>
