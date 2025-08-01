@@ -1,38 +1,35 @@
-import { User, Code } from 'lucide-react';
+import { User, Code,Download } from 'lucide-react';
 
 const About = () => {
     const iDo = [
         'Front-end developer',
         'React',
-        'Scss',
+        'Responsive UI/UX Design',
+        'Modern JavaScript FrameWorks',
         'Typescript',
         'Tailwindcss',
-        'Shell Script Developer',
-        'html',
-        'css',
+
     ];
     return (
         <section
             id="about"
-            className="py-20 px-4 bg-gradient-to-br from-slate-200 via-slate-50 to-slate-300 overflow-hidden"
-        >
+            className="py-20 px-4 relative min-h-screen bg-gradient-to-br from-yellow-50 via-orange-50 to-amber-50">
             <div className="max-w-6xl mx-auto">
                 <div className="text-center mb-16">
-                    <h2 className="text-5xl font-serif md:text-5xl bg-gradient-to-br from-slate-300 via-slate-60 to-slate-300 rounded-2xl">
+                    <h2 className="text-5xl font-serif md:text-5xl bg-gradient-to-br from-pink-100 to-rose-100 rounded-2xl">
                         About Me
                     </h2>
-                    <div className="rounded-lg bg-gradient-to-br from-slate-300 via-slate-60 to-slate-200 mx-auto"></div>
+                    <div className="rounded-lg bg-gradient-to-br from-slate-200 via-slate-60 to-slate-100 mx-auto"></div>
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-12 items-center">
-                    <div className="bg-slate-400/20 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:border-gray-500/60 transition-all duration-300">
+                    <div className="bg-slate-300/20 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:border-gray-400/60 transition-all duration-300">
                         <div className="flex items-center mb-6 space-x-3">
                             <User className="w-6 h-7 text-slate-800 font-black" />
                             <h3 className="font-semibold text-2xl">My Story</h3>
                         </div>
                         <p className="text-slate-900 leading-relaxed mb-8">
-                            Hello, I am a single mother with many challenges,
-                            but my heart is happy because I am here and I am
+                            My heart is happy because I am here and I am
                             moving forward to achieve my goals, despite all the
                             difficulties.. I love programming, although my main
                             field of study in university was something
@@ -48,7 +45,7 @@ const About = () => {
                             difficulties are an inseparable part of life.
                         </p>
                     </div>
-                    <div className="bg-slate-400/20 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:border-gray-500/60 transition-all duration-300">
+                    <div className="bg-slate-300/20 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:border-gray-400/60 transition-all duration-300">
                         <div className="flex items-center mb-6 space-x-3">
                             <Code className="w-6 h-7 text-slate-800 font-black" />
                             <h3 className="font-semibold text-2xl">
@@ -63,6 +60,11 @@ const About = () => {
                                     <span className="text-slate-800"></span>
                                 </div>
                             ))}
+                        </div>
+                        <div className='mt-8'>
+                            <a href="/navziba/Resume.pdf"download></a>
+                            <div className="inline-flex items-center text-blue-400 hover:text-blue-700">
+                           <Download className='h-5 w-5 mr-3'/> Downloud Resume</div>
                         </div>
                     </div>
                 </div>
