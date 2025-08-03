@@ -1,8 +1,8 @@
-import {Instagram} from "lucide-react"
+import { Instagram } from "lucide-react"
 
 
 const Footer = () => {
-    return(
+    return (
         <footer className="py-12 px-4 border-t border-gray-500/30 bg-gray-50/40 backdrop-blur-sm">
             <div className="max-w-6xl mx-auto">
                 <div className="flex flex-col md:flex-row justify-between items-center">
@@ -18,6 +18,15 @@ const Footer = () => {
                         <Instagram />
 
                     </div>
+                </div>
+                <div className="mt-8 pt-6 border-t border-black/30 text-center">
+                    <p className="text-gray-800 text-sm">
+                        ©2025 Ziba Nouri All Rights Reserved Made with by Ziba 
+                           <a  className="ml-2 text-pink-700 hover:text-pink-600 hover:underline transition-all duration-300 mb-2"
+                            href="https://github.com/zibanouri" >
+                            Ziba
+                        </a>
+                    </p>
                 </div>
             </div>
         </footer>
