@@ -14,31 +14,28 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav
-            className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500
-        ${isScrolled ? 'bg-stone-200/80 backdrop-blur-md shadow-lg' : 'bg-transparent'}`}>
-
-
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500
+        ${isScrolled ? 'bg-gray-600/80 backdrop-blur-md shadow-lg' : 'bg-gray-400/10'}`} >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center py-4">
                     <div
-                        className="text-2xl font-bold bg-gradient-to-r from-gray-800 to-gray-600
-                    text-transparent bg-clip-text"
+                        className="text-5xl font-bold bg-gray-800
+                    text-transparent bg-clip-text text-bold  hover:text-gray-900"
                     >
                         Ziba Nouri
                     </div>
-                    <div className="hidden md:flex space-x-8">
+                    <div className="hidden md:flex space-x-8 text-2xl">
                         {['home', 'about', 'skills', 'projects', 'contact'].map(
                             (item) => (
-                                <button className="capitalize hover:text-gray-800 transition-all duration-300 cursor-pointer font-medium relative group">
+                                <button className="capitalize hover:text-gray-200 transition-all duration-300 cursor-pointer font-sans relative group text-2xl">
                                     {item}
-                                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 group-hover:bg-gray-800 group-hover:w-full transition-all duration-300"></span>
+                                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 group-hover:bg-gray-300 group-hover:w-full transition-all duration-300"></span>
                                 </button>
                             )
                         )}
                     </div>
                     <button
-                        className="md:hidden p-2 rounded-lg hover:bg-black/5 transition-colors cursor-pointer"
+                        className="md:hidden p-2 rounded-lg hover:bg-gray-100/5 transition-colors cursor-pointer"
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                     >
                         {isMenuOpen ? (
@@ -74,3 +71,13 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
+
+
+
+
+
+
+
