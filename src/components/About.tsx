@@ -19,11 +19,10 @@ const About = () => {
                     <h2 className="text-5xl font-serif md:text-5xl bg-gradient-to-br from-pink-100 to-gray-300 rounded-2xl w-60 h-15 m-1.5 p-2">
                         About Me
                     </h2>
-                    <div className="rounded-lg bg-gradient-to-br from-slate-200 via-slate-60 to-slate-100 mx-auto"></div>
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-12 items-center">
-                    <div className="bg-slate-400/20 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:border-gray-500/60 transition-all duration-300">
+                    <div className="bg-slate-400/20 backdrop-blur-sm rounded-2xl p-8 border border-blue-500/20 hover:border-blue-500/60 transition-all duration-300">
                         <div className="flex items-center mb-6 space-x-3">
                             <User className="w-6 h-7 text-slate-800 font-black" />
                             <h3 className="font-semibold text-2xl">My Story</h3>
@@ -45,12 +44,12 @@ const About = () => {
                             difficulties are an inseparable part of life.
                         </p>
                     </div>
-                    <div className="bg-slate-400/20 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:border-gray-500/60 transition-all duration-300">
+                    <div className="bg-slate-400/20 backdrop-blur-sm rounded-2xl p-8 border border-blue-500/20 hover:border-blue-500/60 transition-all duration-300">
                         <div className="flex items-center mb-6 space-x-3">
                             <Code className="w-6 h-7 text-slate-800 font-black" />
-                            <h3 className="font-semibold text-2xl">
+                            <h2 className="font-semibold text-2xl">
                                 What I Do
-                            </h3>
+                            </h2>
                         </div>
                         <div className="space-y-4">
                             {iDo.map((item) => (
