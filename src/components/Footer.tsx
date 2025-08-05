@@ -40,7 +40,7 @@ const Footer = () => {
 
                     <div className="flex flex-wrap justify-center gap-4">
                         {socialLinks.map((social) => {
-                            const IconComponent = social.icon; // ✅
+                            const IconComponent = social.icon; 
                             return (
                                 <a
                                     key={social.name}
