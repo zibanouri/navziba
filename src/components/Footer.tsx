@@ -26,7 +26,7 @@ const Footer = () => {
     ];
 
     return (
-        <footer className="py-12 px-4 border-t border-gray-500/30 bg-gray-50/40 backdrop-blur-sm">
+        <footer className="py-12 px-4 border-t border-gray-500/30 bg-gray-800/40 backdrop-blur-sm">
             <div className="max-w-6xl mx-auto">
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     <div className="mb-6 md:mb-0 text-center md:text-left">
@@ -47,7 +47,7 @@ const Footer = () => {
                                     href={social.href}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-slate-500 hover:text-purple-400 transition-all duration-300 transform transform-gpu hover:scale-[1.1] p-2 rounded-lg hover:bg-black/5"
+                                    className="text-slate-500 hover:text-slate-100 transition-all duration-300 transform transform-gpu hover:scale-[1.1] p-2 rounded-lg hover:bg-black/5"
                                     aria-label={social.name}
                                     title={social.name}
                                 >

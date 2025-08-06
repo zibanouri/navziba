@@ -5,7 +5,6 @@ import Skills from '../components/Skills';
 import Footer from '../components/Footer';
 
 
-
 const Index = () => {
     return (
         <div
@@ -17,6 +16,7 @@ const Index = () => {
             <About />
             <Skills />
             <Footer />
+    
             
         </div>
     );
