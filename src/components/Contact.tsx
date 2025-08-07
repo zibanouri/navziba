@@ -108,7 +108,10 @@ const Contact = () => {
                                 >Send Message</button>
                             </div>
                         </form>
+                        <div className='mt-4 p-4 w-full bg-gradient-to-r from-green-400 to-green-500 font-semibold rounded-lg  hover:shadow-lg transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-green-300 text-gray-800 py-3 transition-all duration-300 transform-gpu hover:slate-[1.01] shadow-md text-center'>
+                            Thank You!Your message has been sent successfull</div>
                     </div>
+                    
                 </div>
             </div>
         </section>
