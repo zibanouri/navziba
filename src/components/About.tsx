@@ -61,7 +61,7 @@ const About = () => {
                             ))}
                         </div>
                         <div className="mt-8">
-                            <a href="/navziba/Resume.pdf" download>
+                            <a href="/portfolio/Resume.pdf" download>
                                 <div className="inline-flex items-center text-blue-400 hover:text-blue-700">
                                     <Download className="h-5 w-5 mr-3" />{' '}
                                     Downloud Resume

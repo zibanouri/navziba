@@ -1,14 +1,14 @@
 {
-  "name": "navziba",
+  "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "description": "React-Ts + Tailwind navziba Template",
+  "description": "React-Ts + Tailwind portfolio Template",
   "keywords": [
     "react",
     "vite",
     "typescript",
-    "navziba"
+    "portfolio"
   ],
   "author": {
     "name": "Ziba Nouri",
@@ -20,7 +20,7 @@
     "url": "git+https://github.com/zibanouri/github.git"
   },
   "bugs": {
-    "url": "https://github.com/zibanouri/navziba/issues"
+    "url": "https://github.com/zibanouri/portfolio/issues"
   },
   "profiles": {
     "googleScholar": "https://scholar.google.com/citations?user=Rhue_kkAAAAJ&hl=en",

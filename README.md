@@ -1,1 +1,1 @@
-# "A React-Ts + Tailwind navziba Template",
+# "A React-Ts + Tailwind portfolio Template",

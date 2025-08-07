@@ -1,4 +1,4 @@
-# Contributing to navziba
+# Contributing to portfolio
 
 We welcome contributions from everyone. This document outlines how to propose a change to this project.
 
@@ -6,7 +6,7 @@ We welcome contributions from everyone. This document outlines how to propose a 
 
 ### Report Bugs
 
-Report bugs at https://github.com/zibanouri/navziba/issues.
+Report bugs at https://github.com/zibanouri/portfolio/issues.
 
 If you are reporting a bug, please include:
 
@@ -28,7 +28,7 @@ Portfolio Template could always use more documentation, whether as part of the o
 
 ### Submit Feedback
 
-The best way to send feedback is to file an issue at https://github.com/zibanouri/navziba/issues.
+The best way to send feedback is to file an issue at https://github.com/zibanouri/portfolio/issues.
 
 If you are proposing a feature:
 
@@ -47,7 +47,7 @@ Fork the repository on GitHub.
 Clone your fork locally:
 
 ```bash
-git clone https://github.com/zibanouri/navziba
+git clone https://github.com/zibanouri/portfolio
 ```
 
 ### Step 3: Create a Branch
@@ -96,4 +96,4 @@ Follow the style guides for the languages used in this project:
 
 ## License
 
-By contributing to this project, you agree that your contributions will be licensed under the project's [LICENSE](https://github.com/zibanouri/navziba/blob/main/LICENSE) file.
+By contributing to this project, you agree that your contributions will be licensed under the project's [LICENSE](https://github.com/zibanouri/portfolio/blob/main/LICENSE) file.
