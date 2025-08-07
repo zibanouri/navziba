@@ -11,7 +11,7 @@ const Contact = () => {
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-12">
-                    <div className="border border-red-500 p-6 rounded-lg">
+                    <div>
                         <h3 className="text-2xl font-semibold mb-8">Let's Connect!</h3>
                         <div className="space-y-6">
                             <a
@@ -56,10 +56,9 @@ const Contact = () => {
                             </a>
                         </div>
                     </div>
-                    <div className='border border-amber-700 rounded-lg'>
+                    <div >
                         <form action="javascript:void(0)">
-
-                            <div>
+                            <div className='mt-3'>
                                 <label htmlFor="Name" className='block text-sm font-medium mb-1'>Name</label>
                                 <input
                                     type="text"
@@ -73,7 +72,7 @@ const Contact = () => {
 
                             </div>
 
-                            <div className=''>
+                            <div className='mt-3'>
                                 <label htmlFor="Email" className='block text-sm font-medium mb-1'>Email</label>
                                 <input
                                     type="Email"
@@ -87,11 +86,11 @@ const Contact = () => {
 
                             </div>
 
-                            <div className=''>
-                                <label htmlFor="massage" className='block text-sm font-medium mb-1'>Massage</label>
+                            <div className='mt-3'>
+                                <label htmlFor="message" className='block text-sm font-medium mb-1'>Message</label>
                                 <textarea
-                                    id="massage"
-                                    name="massage"
+                                    id="message"
+                                    name="message"
                                     required
                                     rows={8}
                                     placeholder="Tell Me About Your Project..."
@@ -102,6 +101,11 @@ const Contact = () => {
                                     }
                                 />
 
+                            </div>
+                            <div className='m-4'>
+                                <button 
+                                type='submit' className=' w-full bg-gradient-to-r from-blue-400 to-blue-500 font-semibold rounded-lg  hover:shadow-lg transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-sky-300 text-gray-800 py-3 transition-all duration-300 transform-gpu hover:slate-[1.01] shadow-md cursor-pointer'
+                                >Send Message</button>
                             </div>
                         </form>
                     </div>
