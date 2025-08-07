@@ -5,7 +5,6 @@ import Skills from '../components/Skills';
 import Footer from '../components/Footer';
 import Contact from '../components/Contact';
 
-
 const Index = () => {
     return (
         <div
@@ -18,8 +17,6 @@ const Index = () => {
             <Skills />
             <Contact />
             <Footer />
-
-
         </div>
     );
 };
