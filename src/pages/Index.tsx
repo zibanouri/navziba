@@ -2,8 +2,10 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Skills from '../components/Skills';
+import ProjectCard from '../components/Project.Card';
 import Footer from '../components/Footer';
 import Contact from '../components/Contact';
+
 
 const Index = () => {
     return (
@@ -15,6 +17,7 @@ const Index = () => {
             <Hero />
             <About />
             <Skills />
+            <ProjectCard />
             <Contact />
             <Footer />
         </div>
