@@ -10,17 +10,17 @@ const Footer = () => {
         },
         {
             name: 'Instagram',
-            href: 'https://instagram.com/ziba_n.r', 
+            href: 'https://instagram.com/ziba_n.r',
             icon: Instagram,
         },
         {
             name: 'GitHub',
-            href: 'https://github.com/zibanouri', 
+            href: 'https://github.com/zibanouri',
             icon: Github,
         },
         {
             name: 'LinkedIn',
-            href: 'https://www.linkedin.com/in/ziba-nouri/', 
+            href: 'https://www.linkedin.com/in/ziba-nouri/',
             icon: Linkedin,
         },
     ];
@@ -60,7 +60,8 @@ const Footer = () => {
 
                 <div className="mt-8 pt-6 border-t border-black/30 text-center">
                     <p className="text-gray-400 text-sm">
-                        © {currentYear} Ziba Nouri. All Rights Reserved. Made with love by{' '}
+                        © {currentYear} Ziba Nouri. All Rights Reserved. Made
+                        with love by{' '}
                         <a
                             href="https://github.com/zibanouri"
                             target="_blank"

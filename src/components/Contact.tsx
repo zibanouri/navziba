@@ -3,9 +3,9 @@ import { Mail, Github, Linkedin } from 'lucide-react';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
-        name: "",
-        email: "",
-        message: "",
+        name: '',
+        email: '',
+        message: '',
     });
 
     const [isSubmitted, setIsSubmitted] = useState(false);
@@ -23,7 +23,6 @@ const Contact = () => {
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         setIsSubmitted(true);
-        setTimeout(() => setIsSubmitted(false), 3000);
         setFormData({
             name: '',
             email: '',
@@ -41,9 +40,10 @@ const Contact = () => {
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-12">
-                    {/* لینک‌های تماس */}
                     <div>
-                        <h3 className="text-2xl font-semibold mb-8">Let's Connect!</h3>
+                        <h3 className="text-2xl font-semibold mb-8">
+                            Let's Connect!
+                        </h3>
                         <div className="space-y-6">
                             <a
                                 href="mailto:zn.zibanouri@gmail.com"
@@ -88,17 +88,19 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    {/* فرم تماس */}
                     <div>
                         <form onSubmit={handleSubmit}>
                             <div className="mt-3">
-                                <label htmlFor="name" className="block text-sm font-medium mb-1">
+                                <label
+                                    htmlFor="name"
+                                    className="block text-sm font-medium mb-1"
+                                >
                                     Name
                                 </label>
                                 <input
                                     type="text"
                                     id="name"
-                                    name="name" // ✅ اصلاح: از "Name" به "name" تغییر کرد
+                                    name="name"
                                     value={formData.name}
                                     onChange={handleInputChange}
                                     required
@@ -108,7 +110,10 @@ const Contact = () => {
                             </div>
 
                             <div className="mt-3">
-                                <label htmlFor="email" className="block text-sm font-medium mb-1">
+                                <label
+                                    htmlFor="email"
+                                    className="block text-sm font-medium mb-1"
+                                >
                                     Email
                                 </label>
                                 <input
@@ -124,7 +129,10 @@ const Contact = () => {
                             </div>
 
                             <div className="mt-3">
-                                <label htmlFor="message" className="block text-sm font-medium mb-1">
+                                <label
+                                    htmlFor="message"
+                                    className="block text-sm font-medium mb-1"
+                                >
                                     Message
                                 </label>
                                 <textarea
@@ -149,12 +157,36 @@ const Contact = () => {
                                 </button>
                             </div>
 
-                            {isSubmitted && (
+                            {/* {isSubmitted && (
                                 <div className="mt-4 p-4 bg-green-400/30 border border-green-400 rounded-lg text-slate-800 text-center">
                                     Thank You! Your message has been sent successfully!
                                 </div>
-                            )}
+                            )} */}
                         </form>
+                        {isSubmitted && (
+                            <div
+                                id="toast-success"
+                                className="show-notification flex items-center w-full max-w-xs p-4 mb-4 text-gray-500 bg-white rounded-lg shadow-sm dark:text-gray-400 dark:bg-gray-800"
+                                role="alert"
+                            >
+                                <div className="inline-flex items-center justify-center shrink-0 w-8 h-8 text-green-500 bg-green-100 rounded-lg dark:bg-green-800 dark:text-green-200">
+                                    <svg
+                                        className="w-5 h-5"
+                                        aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="currentColor"
+                                        viewBox="0 0 20 20"
+                                    >
+                                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                                    </svg>
+                                    <span className="sr-only">Check icon</span>
+                                </div>
+                                <div className="ms-3 text-sm font-normal">
+                                    Thank You! Your message has been sent
+                                    successfully!
+                                </div>
+                            </div>
+                        )}
                     </div>
                 </div>
             </div>
